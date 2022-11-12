@@ -9,14 +9,14 @@ const config = {
   title: 'Relay Documentation',
   tagline: 'React Relay GraphQL',
   url: 'https://viet-aus-it.github.io',
-  baseUrl: '/',
+  baseUrl: '/relay-doc/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'VAIT', // Usually your GitHub org/user name.
+  organizationName: 'viet-aus-it', // Usually your GitHub org/user name.
   projectName: 'relay-doc', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
