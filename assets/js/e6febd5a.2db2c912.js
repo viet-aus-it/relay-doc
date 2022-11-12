@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrelay_doc=self.webpackChunkrelay_doc||[]).push([[6554],{6815:e=>{e.exports=JSON.parse('{"permalink":"/relay-doc/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

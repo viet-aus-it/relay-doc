@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrelay_doc=self.webpackChunkrelay_doc||[]).push([[4254],{6159:e=>{e.exports=JSON.parse('{"permalink":"/relay-doc/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
