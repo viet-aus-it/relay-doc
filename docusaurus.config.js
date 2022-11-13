@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Relay Documentation',
-  tagline: 'React Relay GraphQL',
+  tagline: 'The GraphQL client that scales with you.',
   url: 'https://viet-aus-it.github.io',
   baseUrl: '/relay-doc/',
   onBrokenLinks: 'throw',
@@ -65,13 +65,13 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: '/category/introduction',
+            docId: '/category/getting-started',
             position: 'left',
-            label: 'Doc',
+            label: 'Getting Started',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/viet-aus-it/relay-doc',
             label: 'GitHub',
             position: 'right',
           },
@@ -84,26 +84,26 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/category/introduction',
+                label: 'Getting Started',
+                to: '/docs/category/getting-started',
               },
             ],
           },
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              // },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/2g3HaMw37P',
               },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+              // {
+              //   label: 'Twitter',
+              //   href: 'https://twitter.com/docusaurus',
+              // },
             ],
           },
           {
@@ -115,7 +115,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/viet-aus-it/relay-doc',
               },
             ],
           },

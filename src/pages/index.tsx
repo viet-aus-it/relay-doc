@@ -32,7 +32,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`VAIT ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="The GraphQL client that scales with you.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

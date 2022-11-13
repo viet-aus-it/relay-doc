@@ -10,32 +10,56 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Keeps iteration quick',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        <p>
+          Relay is data-fetching turned declarative.
+          Components declare their data dependencies, without worrying about how to fetch them.
+          Relay guarantees that the data each component needs is fetched and available.
+          This keeps components decoupled and promotes reuse.
+        </p>
+        <p>
+          With Relay, components and their data dependencies can be quickly modified without modifying other parts of the system.
+          That means you won't accidentally break other components as you refactor or make changes to your app.
+        </p>
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Automatic optimizations',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        <p>
+          Relay's compiler aggregates and optimizes the data requirements
+          for your entire app, so that they can be efficiently
+          fetched in a single GraphQL request.
+        </p>
+        <p>
+          Relay handles the heavy lifting to ensure the data declared by your components
+          is fetched in the most efficient way.
+          For example, by deduplicating identical fields,
+          and precomputing information used at runtime, among other optimizations.
+        </p>
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Data consistency',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <p>
+          Relay automatically keeps all of your components up to date when data that
+          affects them changes, and efficiently updates them only when strictly necessary.
+          This means no unnecessary re-renders.
+        </p>
+        <p>
+          Relay also supports executing GraphQL Mutations, optionally with optimistic updates,
+          and updates to local data, while ensuring that visible data on the screen is always kept up to date.
+        </p>
       </>
     ),
   },
